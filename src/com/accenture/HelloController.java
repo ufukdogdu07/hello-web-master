@@ -10,7 +10,7 @@ import org.springframework.ui.ModelMap;
 public class HelloController {
     @RequestMapping(method = RequestMethod.GET)
     public String printHello(ModelMap model) {
-        model.addAttribute("message", "Selam millet nasilsiniz? Iyi misiniz? Ben iyiyim...hoppa thanks...efýrýr");
+        model.addAttribute("message", "Selam millet nasilsiniz? Iyi misiniz? Ben iyiyim...hoppa thanks...heyt22 be");
         return "hello";
     }
 }
