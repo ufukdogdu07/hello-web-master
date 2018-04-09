@@ -12,7 +12,7 @@
 		</javac>
 	</target>
 	<target name="war" depends="compile">
-		<war destfile="HelloWeb-0.0.1-SNAPSHOT.war" webxml="WebContent/WEB-INF/web.xml">
+		<war destfile="HelloWeb.war" webxml="WebContent/WEB-INF/web.xml">
 			<fileset dir="WebContent"/>
 			<classes dir="build/classes"/>
 		</war>
