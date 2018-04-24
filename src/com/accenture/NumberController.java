@@ -15,7 +15,7 @@ public class NumberController {
     }
 
     @RequestMapping(value = "/addNumbers", method = RequestMethod.POST)
-    public String addNumbers(@ModelAttribute("HelloWeb-0.0.1-SNAPSHOT") CalcNumber calcNumber, ModelMap model) {
+    public String addNumbers(@ModelAttribute("HelloWebUfukDogdu") CalcNumber calcNumber, ModelMap model) {
         model.addAttribute("number1", calcNumber.getNumber1());
         model.addAttribute("number2", calcNumber.getNumber2());
         model.addAttribute("total", calcNumber.getTotal());
