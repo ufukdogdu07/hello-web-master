@@ -15,7 +15,7 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/addStudent", method = RequestMethod.POST)
-    public String addStudent(@ModelAttribute("HelloWeb-0.0.1-SNAPSHOT") Student student, ModelMap model) {
+    public String addStudent(@ModelAttribute("HelloWebUfukDogdu") Student student, ModelMap model) {
         model.addAttribute("name", student.getName());
         model.addAttribute("surname", student.getSurname());
         model.addAttribute("age", student.getAge());
