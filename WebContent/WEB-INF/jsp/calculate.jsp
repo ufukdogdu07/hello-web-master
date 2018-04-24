@@ -6,7 +6,7 @@
 <body>
 
 <h2>Toplanacak Sayilari Giriniz:</h2>
-<form:form method="POST" action="/HelloWeb-0.0.1-SNAPSHOT/addNumbers">
+<form:form method="POST" action="/HelloWebUfukDogdu/addNumbers">
    <table>
     <tr>
         <td><form:label path="number1">1. Sayi</form:label></td>
